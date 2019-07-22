@@ -18,12 +18,13 @@ class Dog
 
     def self.clear_all
 
-        @@all.all.clear
+        @@all.clear
     end
 
     def self.print_all
 
-        @@all.all.print
+        puts @name
+    
     end
 
 
